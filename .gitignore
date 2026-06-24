@@ -1,5 +1,28 @@
 
-node_modules
+# Environment variables
 .env
-README.md
-.vscode
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+#SSL certificates
+*.pem
