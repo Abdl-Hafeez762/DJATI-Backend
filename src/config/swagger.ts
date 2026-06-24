@@ -8,7 +8,10 @@ const options: swaggerJsdoc.Options = {
       version: "1.0.0",
       description: "Documentation officielle de l'API DJATI — gestion de boutique",
     },
-    servers: [{ url: "http://localhost:5000", description: "Serveur local" }],
+    servers: [
+        { url: "http://localhost:5000", description: "Serveur local" },
+        { url: "https://djati-backend-3.onrender.com/", description: "Serveur de production" },
+    ],
     components: {
       securitySchemes: {
         BearerAuth: {
